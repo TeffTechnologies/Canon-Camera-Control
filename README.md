@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Canon Camera Control** is a web app that lets you control your Canon R series camera from afar using the internet.  It's for photographers, videographers, and developers who want to use Canon R cameras in unique ways. It uses the camera's Wi-Fi and a separate server (which you'll need to set up) to provide camera control through a website.
+**Canon Camera Control** is a web app that lets you control your Canon R series camera from afar using the internet.  It's for photographers, videographers, and developers who want to use Canon R cameras in unique ways. It uses the camera's Wi-Fi and the Canon Camera Control API (which you'll need to set up via [firmware update](https://developercommunity.usa.canon.com/s/article/Introduction-to-Camera-Control-API-CCAPI)) to provide camera control through a web app.
 
 **What it does:**
 
@@ -41,6 +41,6 @@ Or
 
     * **Chrome/Edge:** Look for an "Install" icon (usually a + sign) in the address bar.
     * **Safari:** Click the "Share" button, then "Add to Home Screen."
-    * **Firefox:** Look for the "Install" icon in the address bar.
+    * **Firefox:** Look for the "Install" icon in the address bar (mobile app only). 
 
-These docs will be updated as features are added. Contact hey@teff.tech(mailto:hey@teff.tech) for issues or feature requests.
+These docs will be updated as features are added. Contact hey@teff.tech for questions or feature requests.
