@@ -33,7 +33,7 @@ You can install this web app on your device for easier access.
 
     ```bash
     git clone [https://github.com/TeffTechnologies/canon-camera-control.git](https://github.com/your-username/canon-camera-control.git)
-    cd canon-camera-control-pwa
+    cd canon-camera-control
     ```
 Or
 
