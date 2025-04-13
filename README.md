@@ -32,7 +32,7 @@ You can install this web app on your device for easier access.
 1.  **Get the App Files:**
 
     ```bash
-    git clone [https://github.com/TeffTechnologies/canon-camera-control.git](https://github.com/your-username/canon-camera-control.git)
+    git clone https://github.com/TeffTechnologies/canon-camera-control.git
     cd canon-camera-control
     ```
 Or
