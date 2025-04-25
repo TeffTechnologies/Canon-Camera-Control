@@ -3,17 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
     <link rel="manifest" href="/manifest.json"/>
-    <title>Document</title>
+    <link rel="icon" href="/icons/512.png">
+    <title>Canon Camera Control</title>
 </head>
 <body>
-    <!-- <button type="button" onclick="shutter(true)">
-        Take Photo
-    </button> -->
     <p id="camera"></p>
+    <img src="icons/info.svg" class="icons" onclick="cameraInfo(true)">
     <div class="shutter-button" onclick="shutter(true)">
         <div class="inner-circle"></div>
     </div>
     <script src="scripts.js"></script> 
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
 </body>
 </html>
